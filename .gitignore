@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.txt
+
+node_modules/
+screenshots/
+
+.local-chromium/
+
+# Finder
+.DS_Store
+
+# Xcode - User files
+xcuserdata/
+
+# production
+/build
+
+# misc
+/backend/.env
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

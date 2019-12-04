@@ -1,0 +1,15 @@
+{
+  "name": "puppteteer",
+  "version": "1.0.0",
+  "description": "screenshot script",
+  "main": "newPup.js",
+  "scripts": {
+    "start": "node newPup.js",
+    "go": "node save.js"
+  },
+  "author": "Juan Perez Jr",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
